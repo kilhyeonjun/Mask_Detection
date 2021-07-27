@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1086098680622",
+    "project_id": "maskdetection-cd269",
+    "storage_bucket": "maskdetection-cd269.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086098680622:android:12e61885abe6ab378a68bf",
+        "android_client_info": {
+          "package_name": "org.tensorflow.lite.examples.detection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086098680622-5prl8oq4fj7da4herq2tpp3d1fc7as0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy9L_Xfp__akxkSRChKcPWiY-QUO-cxWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086098680622-5prl8oq4fj7da4herq2tpp3d1fc7as0u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

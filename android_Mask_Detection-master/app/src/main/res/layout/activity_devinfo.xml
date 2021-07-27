@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:text="MaskDetection">
+
+        </TextView>
+
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/txt_name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="201644004 김산"
+        app:layout_constraintHorizontal_bias="0.352"
+        app:layout_constraintLeft_toRightOf="@+id/img1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_info1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MaskDetection 모델 개발"
+        app:layout_constraintLeft_toLeftOf="@+id/txt_name1"
+        app:layout_constraintTop_toBottomOf="@+id/txt_name1"/>
+    <TextView
+        android:id="@+id/txt_addr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="마운틴 주소"
+        app:layout_constraintLeft_toLeftOf="@+id/txt_info1"
+        app:layout_constraintTop_toBottomOf="@+id/txt_info1"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img2"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/img1"
+        app:layout_constraintRight_toRightOf="@+id/img1"
+        app:layout_constraintTop_toBottomOf="@+id/img1"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/txt_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:text="201744004 길현준"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintLeft_toRightOf="@+id/img2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_addr1" />
+
+    <TextView
+        android:id="@+id/txt_info2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FullStack, DB, 회원가입, 캘린더 개발"
+        app:layout_constraintLeft_toLeftOf="@+id/txt_name2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_name2" />
+    <TextView
+        android:id="@+id/txt_addr2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="인천광역시 미추홀구 용현동 85-22"
+        app:layout_constraintLeft_toLeftOf="@+id/txt_info2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_info2"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/noticeboard"
+        android:title="공지사항" />
+    <item
+        android:id="@+id/qnaboard"
+        android:title="문의 게시판" />
+    <item
+        android:id="@+id/logout"
+        android:title="로그아웃" />
+    <item
+        android:id="@+id/logdel"
+        android:title="회원탈퇴" />
+    <item
+        android:id="@+id/devinfo"
+        android:title="개발자 정보" />
+</menu>
